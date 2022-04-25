@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10px ;
+    border-bottom: solid rgb(255, 255, 255) 1px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+  
+    margin-bottom: 10px;
+}
+
+.barras{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.titulo-frase{
+    display: flex;
+}
+
+.frase{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.imagen-pri{
+    margin-top: 2%;
+    width: 75%;
+    height: 48%;
+}
+
+.imagens-precos{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caixa{
+    
+   margin-right: 30%;
+}
+
+.caixa-02{
+    transform: translatex(48px);
+}
+
+.caixa-precos{
+    margin-top: 3%;
+    display: flex;
+   justify-content: space-between;
+    margin-bottom: 3%;
+    
+
+}
+
+
+.caixa-precos-02{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.botao{
+    margin-right: 25%;
+    width: 70px;
+    height: 25px;
+    background: #51D275;
+    border: none;
+    border-radius: 12px;
+}
+
+.botao-02{
+    margin-right: 24%;
+    width: 70px;
+    height: 25px;
+    background: #DC9730;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+.nome{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #888888;
+}
+
+.imagen-01{
+    width: 995px;
+    margin-bottom: 1%;
+}
+
+.imagen-02{
+    width: 995px;
+    margin-bottom: 1%;
+}
+
+.imagen-03{
+    width: 995px;
+    margin-bottom: 1%;
+}
+
+
+.rodape{
+    display: flex;
+    background: #333333;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.mapa{
+    margin-right: 15%;
+    margin-top: 2% ;
+    width: 300px;
+    height: 200px;
+}
+
+.endereco{
+    margin-top: 2%;
+    color: white;
+}
